@@ -37,6 +37,7 @@
 					<ul>
 						<li><a href="how-it-works.php">How it works</a></li>
 						<li><a href="what-it-covers.php">What it covers</a></li>
+						<li><a href="what-it-costs.php">What it costs</a></li>
 						<li><a href="apply.php">Apply</a></li>
 						<li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
 						<li class="active"><a href="faqs-and-support.php">FAQs and support</a></li>
@@ -67,7 +68,7 @@
 				<div class="hr blue"></div>
 				
 				<h4>who can get cover?</h4>
-				<p>A Director or an Officer who is a member of Women on Boards.</p>
+				<p>A Director or an Officer who is a subscriber of Women on Boards.</p>
 				
 				<div class="hr blue"></div>
 				
@@ -79,7 +80,7 @@
 An additional premium may apply.</li>
 				</ul>
 				
-				<p class="fine">Other Exclusions do apply, for full particulars reference must be made to the current Policy wording. For more information download the Policy.</p>
+				<p class="fine">Full particulars of the Passport D&amp;O coverage please refer to the full Passport D&amp;O Policy wording. <a href="/downloads/Passport_D&O_Policy.pdf" target="_blank">Download the Passport D&amp;O Policy</a>.</p>
 				
 				<div class="hr blue"></div>
 				
@@ -87,7 +88,6 @@ An additional premium may apply.</li>
 				<p>An Exchange Traded Entity is any entity whose securities are publicly traded (wholly or in part) on a stock exchange in any jurisdiction.</p>
 			
 				<div class="hr blue"></div>
-				<h4>How much does it cost?</h4>
 				
 				<div class="scroll">
 					<table class="quad yellow" border="0" cellspacing="0" cellpadding="0">
@@ -157,11 +157,11 @@ An additional premium may apply.</li>
 				<div class="hr blue"></div>
 				
 				<h4>How do I access free legal advice from Colin Biggers & Paisley (CBP)?</h4>
-				<p>Free legal advice is available for members of Women on Boards who have purchased Passport D&O Insurance. Please contact Amanda Ryding from CBP on 02 8281 4428 or ajr@cbp.com.au.</p>
+				<p>Free legal advice is available for subscribers to Women on Boards who have purchased Passport D&O Insurance. Please contact Amanda Ryding from CBP on 02 8281 4428 or ajr@cbp.com.au.</p>
 				<p>The conditions of use for the free legal advice line are:</p>
 				<ul>
 					<li>Free advice for 15 minutes per enquiry from the same issue or related circumstances.</li>
-					<li>Discussions with CBP in relation to a claim or loss (as defined in Passport) or an allegation or circumstances which may give rise to a claim or loss do not constitute an official notification of a claim to LAUW. At all times LAUW must be notified in writing of any claim, allegation or circumstances that may give rise to a claim in accordance with the LAUW Policy.</li>
+					<li>Discussions with CBP in relation to a claim or loss (as defined in Passport D&amp;O). An allegation or circumstances which may give rise to a claim or loss do not constitute an official notification of a claim to LAUW. At all times LAUW must be notified in writing of any claim, allegation or circumstances that may give rise to a claim in accordance with the LAUW Policy.</li>
 					<li>CBP cannot provide final legal advice via the hotline on policy indemnity. There is no finality in any advice on liability or indemnity as provided by CBP.</li>
 					<li>By utilising this service, you agree to waive legal professional privilege, but only to the extent to enable CBP to disclose to the insurer any information obtained via the hotline that may result in a claim being pursued or defended under the terms and conditions of the LAUW Policy.</li>
 					<li>The hours of operation are from 9am to 4pm AEST Monday to Friday except public holidays.</li>
@@ -170,14 +170,14 @@ An additional premium may apply.</li>
 				<div class="hr blue"></div>
 				
 				<h4>How secure is Passport D&amp;O?</h4>
-				<p>Passport is fully underwritten by certain Underwriters at Lloyd’s of London, ensuring exceptional Security.</p>
+				<p>Passport D&amp;O is fully underwritten by certain Underwriters at Lloyd’s of London, ensuring exceptional Security.</p>
 				<p>London Australia Underwriting Pty Ltd, ABN 40 114 962 435, is a coverholder for certain Underwriters at Lloyd’s and is referred to in the Policy as the “Coverholder”. London Australia Underwriting Pty Ltd has the authority to bind this Policy on their behalf.</p>
 				<p>Please refer to www.lloyds.com for current ratings and information on Lloyd’s unique Chain of Security.</p>
 				
 				<div class="hr blue"></div>
 				
 				<h4>Is there anything else important I should note?</h4>
-				<p>Passport only responds after the exhaustion of all other indemnification available to you from any other source including any other policy of insurance.</p>
+				<p>Passport D&amp;O only responds after the exhaustion of all other indemnification available to you from any other source including any other policy of insurance.</p>
 				<p>This Policy is issued by London Australia Underwriting Pty Ltd on a claims made and notified basis. This means that the Policy only covers Claims first made against you during the Period of Insurance and notified to London Australia Underwriting Pty Ltd in writing during the Period of Insurance. The Policy does not provide cover for any Claims made against you during the Period of Insurance if at any time prior to the commencement of the Period of Insurance you were aware of facts which might give rise to those Claims being made against you.</p>
 				
 				<div class="hr blue"></div>

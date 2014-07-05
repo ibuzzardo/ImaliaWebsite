@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>How To Make a Claim</title>
+<title>What It Costs</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -37,9 +37,9 @@
 					<ul>
 						<li><a href="how-it-works.php">How it works</a></li>
 						<li><a href="what-it-covers.php">What it covers</a></li>
-						<li><a href="what-it-costs.php">What it costs</a></li>
+						<li class="active"><a href="what-it-costs.php">What it costs</a></li>
 						<li><a href="apply.php">Apply</a></li>
-						<li class="active"><a href="how-to-make-a-claim.php">How to make a claim</a></li>
+						<li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
 						<li><a href="faqs-and-support.php">FAQs and support</a></li>
 					</ul>
 				</nav>
@@ -54,13 +54,61 @@
 		<div class="container clearfix">
 			<div class="col-4-5">
 				<h1>Passport d&amp;o</h1>
-				<h2>HOW TO MAKE A CLAIM</h2>
-				<p>At Imalia we believe that making an insurance claim should be quick, easy and hassle-free. Making a claim on your Passport D&amp;O cover is no exception.</p>
-				<p>When you become aware of a circumstance that may give rise to a claim, or you receive notification of a claim, you must immediately advise Imalia, who will then advise the Underwriter.</p>
-				<h2>ALL IT TAKES IS A PHONE OR AN EMAIL TO LODGE YOUR CLAIM AND WE’LL TAKE IT FROM THERE</h2>
-				<button class="btn blue call">CaLl IMALIA 1300 302 952</button><br>
-				<a href="" class="btn yellow plane">Email Imalia</a>
+				<h2>What it costs</h2>
+				<p>Women on Boards through Imalia have arranged Passport D&O coverage at this special price for subscribers to Women on Boards.</p>
 				
+				<table class="yellow" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th width="29%" colspan="1">Price including GST</th>
+						<th colspan="2">Total Premium including GST, Stamp Duty & Fees</th>
+					</tr>
+					<tr>
+						<td>$208.61</td>
+						<td width="17%">ACT</td>
+						<td width="54%">$223.79</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">NSW</td>
+						<td width="54%">$230.95</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">NT</td>
+						<td width="54%">$233.91</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">QLD</td>
+						<td width="54%">$231.39</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">SA</td>
+						<td width="54%">$236.45</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">TAS</td>
+						<td width="54%">$233.91</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">VIC</td>
+						<td width="54%">$233.91</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td width="17%">WA</td>
+						<td width="54%">$233.91</td>
+					</tr>
+			
+				</table>
+				
+				<br><br>
+				
+				<a href="./apply.php" class="btn blue apply">Apply now</a>
+				<a href="#share" class="btn yellow share open-popup-link">Share</a>
 			</div>
 			<!-- col-4-5 -->
 			<div class="col-1-5 support">
@@ -72,6 +120,9 @@
 		<!-- container -->
 	</section>
 	<!-- section -->
+	
+	<div id="share" class="mfp-hide white-popup popup txt-ctr">
+	</div>
 	
 	<?php
 		include "_contact_form.php";

@@ -37,6 +37,7 @@
 					<ul>
 						<li><a href="how-it-works.php">How it works</a></li>
 						<li class="active"><a href="what-it-covers.php">What it covers</a></li>
+						<li><a href="what-it-costs.php">What it costs</a></li>
 						<li><a href="apply.php">Apply</a></li>
 						<li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
 						<li><a href="faqs-and-support.php">FAQs and support</a></li>
@@ -55,7 +56,7 @@
 				<h1>Passport d&amp;o</h1>
 				<h2>What It Covers</h2>
 				<p>Passport D&amp;O provides you with an added layer of personal protection.</p>
-				<p>Passport delivers you a comprehensive ‘Difference in Conditions / Difference in Limits‘ solution that can be transported to each Board Position you currently hold or have held in the past on any Private or Unlisted Public Company or Not-for-Profit organisation.</p>
+				<p>Passport D&amp;O delivers you a comprehensive ‘Difference in Conditions / Difference in Limits‘ solution that can be transported to each Board Position you currently hold or have held in the past on any private or unlisted public company or not-for-profit organisation.</p>
 				
 				<table class="blue" border="0" cellspacing="0" cellpadding="0">
 					<tr>
@@ -96,8 +97,9 @@
 				</table>
 				<br>
 				<ul>
-					<li><a href="">Download the Policy wording (20KB PDF)</a></li>
-					<li><a href="">Download the Policy Benefits (20KB PDF)</a></li>
+					<li><a href="/downloads/Passport_D&O_Policy.pdf" target="_blank">Download the Passport D&O Policy</a></li>
+					<li><a href="/downloads/Passport_D&O_Declaration.pdf" target="_blank">Download the Passport D&O Declaration</a></li>
+					<li><a href="/downloads/Passport_D&O_Policy_Benefits.pdf" target="_blank">Download the Passport D&O Policy Benefits</a></li>
 				</ul>
 				<br>
 				<a href="apply.php" class="btn blue apply">Apply now</a>

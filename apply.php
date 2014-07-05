@@ -37,6 +37,7 @@
 					<ul>
 						<li><a href="how-it-works.php">How it works</a></li>
 						<li><a href="what-it-covers.php">What it covers</a></li>
+						<li><a href="what-it-costs.php">What it costs</a></li>
 						<li class="active"><a href="./apply.php">Apply</a></li>
 						<li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
 						<li><a href="faqs-and-support.php">FAQs and support</a></li>
@@ -54,6 +55,7 @@
 			<div class="col-4-5">
 				<h1>Passport d&amp;o</h1>
 				<h2>To receive a quote, complete the form below.</h2>
+				<p></p>
 				
 				<form id="apply-form" class="clearfix stack" method="post" action="#">
 					<div class="form-row clearfix">
@@ -112,9 +114,9 @@
 					<br>
 					<div class="form-row clearfix radioBtn">
 						<p>
-							Do you require coverage for any positions held on any Exchange Traded Entity? <a class="open-popup-link" href="#help">Help</a>
+							Do you require coverage for any positions held on any Exchange Traded Entity? <a class="open-popup-link" href="#help1">Help</a>
 						</p>
-						<div id="help" class="popup mfp-hide white-popup txt-ctr"><p>An Exchange Traded Entity is any entity whose securities are publicly traded (wholly or in part) on a stock exchange in any jurisdiction.</p></div>
+						<div id="help1" class="popup mfp-hide white-popup txt-ctr"><p>An Exchange Traded Entity is any entity whose securities are publicly traded (wholly or in part) on a stock exchange in any jurisdiction.</p></div>
 						<label for="q1_yes">
 							<input class="styled" type="radio" name="q1" id="q1_yes" value="yes" required>
 							Yes
@@ -128,7 +130,8 @@
 						<p>You can add Exchange Traded Entities here. <button type="button" class="add black open-popup-link" data-mfp-src="#entities_add"></button></p>
 					</div>
 					<div class="form-row clearfix radioBtn">
-						<p>If a similar insurance to that now proposed had been or were now in effect, would any claim which has been made or which is now pending against you for insurance have fallen within the scope of such insurance?</p>
+						<p>If a similar insurance to that now proposed had been or were now in effect, would any claim which has been made or which is now pending against you for insurance have fallen within the scope of such insurance? <a href="#help2" class="open-popup-link">Help</a></p>
+						<div id="help2" class="popup mfp-hide white-popup txt-ctr"><p>Has there been any incidents or claims against the directors or the company, which would have fallen under this Directors’ and Officers’ policy?</p></div>
 						<label for="q2_yes">
 							<input class="styled" type="radio" name="q2" id="q2_yes" value="yes" required>
 							Yes
@@ -150,7 +153,8 @@
 						</label>
 					</div>
 					<div class="form-row clearfix radioBtn">
-						<p>Have you ever been subject to disciplinary action or been fined or penalised?</p>
+						<p>Have you ever been subject to disciplinary action or been fined or penalised? <a href="#help4" class="open-popup-link">Help</a></p>
+						<div id="help4" class="popup mfp-hide white-popup txt-ctr"><p>By a regulatory body such as ASIC, APRA or the Law Society in relation to your profession or a company (not parking or speeding fines)</p></div>
 						<label for="q4_yes">
 							<input class="styled" type="radio" name="q4" id="q4_yes" value="yes" required>
 							Yes
@@ -172,7 +176,8 @@
 						</label>
 					</div>
 					<div class="form-row clearfix radioBtn">
-						<p>Are you aware, AFTER ENQUIRY, of any circumstances or incident which you have reason to suppose might afford grounds for any future claim such as would fall within the scope of the proposed insurance?</p>
+						<p>Are you aware, AFTER ENQUIRY, of any circumstances or incident which you have reason to suppose might afford grounds for any future claim such as would fall within the scope of the proposed insurance? <a href="#help6" class="open-popup-link">Help</a></p>
+						<div id="help6" class="popup mfp-hide white-popup txt-ctr"><p>You are required to actively inquire to your company as to whether there are any outstanding incidents, notifications or claims.</p></div>
 						<label for="q6_yes">
 							<input class="styled" type="radio" name="q6" id="q6_yes" value="yes" required>
 							Yes
@@ -181,6 +186,9 @@
 							<input class="styled" type="radio" name="q6" id="q6_no" value="no">
 							No
 						</label>
+					</div>
+					<div class="form-row clearfix">
+						<p class="fine">Please Note: If you have answered YES to any of the questions above, this declaration will be submitted to Underwriters for consideration.</p>
 					</div>
 					<div class="form-row clearfix">
 						<input type="submit" class="blue btn apply" value="Get A Quote">
