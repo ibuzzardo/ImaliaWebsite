@@ -1,0 +1,74 @@
+.txt-left {
+    text-align:left;
+}
+
+.txt-right {
+    text-align:right;
+}
+
+.txt-ctr {
+    text-align:center;
+}
+
+.no-pad {
+    padding:0 !important;
+}
+
+.uppercase() {
+    text-transform:uppercase;
+}
+
+.font(@size, @height) {
+    font-size:~"@{size}px";
+    line-height:~"@{height}px";
+}
+
+.pos(@pos:absolute, @t:0, @r:0, @b:0, @l:0) {
+    position:@pos;
+    top:@t;
+    right:@r;
+    bottom:@b;
+    left:@l;
+}
+
+.inline-block() {
+    display: inline-block;
+    /* IE fix */
+    zoom: 1;
+    *display: inline;
+}
+
+.bgImg(@src, @x, @y) {
+    background-image:url(@src);
+    background-position:@x @y;
+    background-repeat:no-repeat;
+}
+
+.bgPos(@x, @y) {
+    background-position:@x @y;
+}
+
+.borderAll(@colour, @t, @r, @b, @l) {
+    border-color:@colour;
+    border-top-width:@t;
+    border-right-width:@r;
+    border-bottom-width:@b;
+    border-left-width:@l;
+    border-style:solid;
+}
+
+.opacity(@val) {
+    @valIE: @val * 100;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=~'@{val}')";
+    filter: alpha(opacity=@valIE);
+    -moz-opacity: @val;
+    -khtml-opacity: @val;
+    opacity: @val;
+}
+
+.transition(@target, @dur, @ease) {
+    -webkit-transition: @target @dur @ease;
+    -moz-transition: @target @dur @ease;
+    -o-transition: @target @dur @ease;
+    transition: @target @dur @ease;
+}

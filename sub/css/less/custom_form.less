@@ -1,0 +1,181 @@
+
+/*** Validation ***/
+
+input[type="text"], input[type="email"] {
+    &.styled { 
+        display: none; 
+    }
+}
+
+input[type="radio"], input[type="checkbox"] {
+    &.styled { 
+        display: none; 
+    }
+} 
+
+select.styled { 
+    position: relative; 
+    opacity: 0; 
+    filter: alpha(opacity=0); 
+    z-index: 5; 
+} 
+
+.disabled { 
+    opacity: 0.5; 
+    filter: alpha(opacity=50); 
+}
+
+input {
+    .transition(background-color, 0.3s, ease);
+}
+
+input[type="radio"], input[type="checkbox"] {
+    &.styled {
+        display:block !important;
+        .visuallyhidden !important;
+    }
+}
+
+label.error {
+    display:none !important;
+}
+input.error, textarea.error {
+    border-color:@red1 !important;
+    background-color:@red2 !important;
+    .bgImg("images/sprites.png", right, -725px);
+}
+
+.radioBtn, .checkBox {
+    &.error {
+        span {
+            border-color:@red1 !important;
+            background-color:@red2 !important;
+        }
+    }
+}
+
+.radio, .checkbox {
+    .input;
+    display:block;
+    float:left;
+    margin-right:10px;
+}
+
+.radio {
+	width: 25px;
+	height: 25px !important;
+	background-image:url("images/check3.png");
+	background-position:bottom top;
+	background-repeat:no-repeat;
+}
+
+.checkbox {
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:0;
+    background-image:url("images/check_sml2.png");
+	background-repeat:no-repeat;
+}
+
+select.styled {
+    width:100% !important;
+    height:35px;
+    margin:0;
+    padding:0;
+}
+
+.select {
+    .input;
+    width:99%;
+    height:35px;
+    max-width:400px;
+    position:absolute;
+    line-height:35px;
+    text-indent:15px;
+    bottom:0;
+    left:0;
+    .bgImg("images/sprites.png", 105%, -188px);
+}
+
+.expiry {
+    .divider {
+        display:none;
+    }
+    .inner-row {
+        position:relative;
+        display:block;
+        margin-bottom:8px;
+    }
+}
+
+form {
+    &.stack {
+        .form-row {
+            position:relative;
+            margin-bottom:8px;
+        }
+        label {
+            float:left;
+            width:100%;
+            line-height:35px;
+        }
+        .radioBtn, .checkBox {
+            margin-bottom:20px;
+            label {
+                width:auto !important;
+                padding:0 40px 0 0;
+            }
+        }
+        .checkBox label {
+            padding-right:0;
+            padding-left:40px;
+        }
+        input[type="text"], input[type="email"] {
+            width:99%;
+            max-width:400px;
+            text-indent:15px;
+        }
+        .cc img {
+            display:block;
+            padding-top:5px;
+        }
+    }
+}
+
+.setCustomForm(@w) when (@w = @breakpoint1) {
+    select.styled {
+        width:330px !important;
+        height:35px;
+        margin:0;
+        padding:0;
+    }
+    
+    .select {
+        width:330px;
+        float:left;
+        left:auto;
+    }
+    
+    .expiry {
+        .inner-row {
+           .inline-block();
+           margin:0;
+        }
+        .select {
+            width:129px;
+        }
+        select.styled {
+            width:131px !important;
+        }
+        select.month, #selectMonth {
+            margin-right:17px;
+        }
+        .divider {
+            display:inline;
+            position:relative;
+            left:-7px;
+            top:8px;
+        }
+    }
+}

@@ -1,0 +1,195 @@
+/*** Colours ***/
+
+@black:#000;
+@white:#fff;
+@grey:#191919;
+@blue:#99e2e2;
+@blue2:#c9f0f1;
+@beige:#fff6ed;
+@beige2:#e0d9d2;
+@beige3:#fff1e2;
+@red1:#f7a08a;
+@red2:#fbc8b7;
+
+p a, li a {
+    color:@black;
+    text-decoration:none;
+    .borderAll(lighten(@black, 80%), 0, 0, 1px, 0);
+}
+
+.fine {
+    .font(10, 14) !important;
+}
+
+/*** Colour palletes ***/
+
+.dkGrey {
+    color:@white;
+    background-color:@grey;
+    a {
+        color:@white;
+    }
+}
+
+.blue {
+    color:@black;
+    background-color:@blue;
+}
+
+.yellow {
+    background-color:@beige3;
+}
+
+.black {
+    color:@white;
+    background-color:@black;
+    a {
+        color:@white;
+    }
+}
+
+/*** Objects ***/
+
+.input {
+    .borderAll(@beige2, 3px, 0, 0, 3px);
+    background:@beige;
+    .proxima.lt;
+    .font(11,35);
+}
+
+table {
+    th {
+        color:@white;
+        background-color:@black;
+    }
+    &.yellow {
+        tr:nth-child(even) {
+            td {
+                background-color:@beige;
+            }
+        }
+    }
+    &.blue {
+        tr:nth-child(even) {
+            td {
+                background-color:@blue2;
+            }
+        }
+    }
+}
+
+.btn {
+    color:@black;
+    height:48px;
+    .lubalin.book;
+    .font(12, 48);
+    .uppercase();
+    text-decoration:none;
+    padding:0 20px 0 50px;
+    margin:12px 8px 0 0;
+    .inline-block;
+    border:none;
+    .transition(all, 0.4s, ease);
+    &.blue {
+        &:hover {
+            background-color:@beige3;
+        }
+        &.apply {
+            .bgImg("images/sprites.png", 12px, 12px);
+            &:hover {
+                .bgPos(12px, -164px);
+            }
+        }
+        &.dl {
+            &:hover {
+                .bgPos(12px, -214px);
+            }
+            .bgImg("images/sprites.png", 12px, -261px);
+        }
+        &.invoice {
+            .bgImg("images/sprites.png", 12px, -300px);
+            &:hover {
+                .bgPos(12px, -338px);
+            }
+        }
+        &.call {
+            .bgImg("images/sprites.png", -466px, -355px);
+            &:hover {
+                .bgPos(-466px, -320px);
+            }
+        }
+    }
+    &.yellow {
+        &:hover {
+            background-color:@blue;
+        }
+        &.apply {
+            .bgImg("images/sprites.png", 12px, -164px);
+            &:hover {
+                .bgPos(12px, 11px);
+            }
+        }
+        &.share {
+           .bgImg("images/sprites.png", 15px, -118px);
+           &:hover {
+            .bgPos(15px, -77px);
+           }
+        }
+        &.invoice {
+            .bgImg("images/sprites.png", 12px, -337px);
+            &:hover {
+                .bgPos(12px, -299px);
+            }
+        }
+        &.plane {
+            .bgImg("images/sprites.png", -468px, -406px);
+            &:hover {
+                .bgPos(-468px, -434px);
+            }
+        }
+        &.dl {
+            .bgImg("images/sprites.png", 12px, -214px);
+            &:hover {
+                .bgPos(12px, -262px);
+            }
+        }
+        &.call {
+            .bgImg("images/sprites.png", -466px, -320px);
+            &:hover {
+                .bgPos(-466px, -353px);
+            }
+        }
+    }
+    &.plain {
+        display:inline !important;
+        padding:0;
+        margin:0 20px;
+        text-transform:initial;
+        .borderAll(@grey, 0, 0, 1px, 0);
+    }
+}
+
+button.add {
+    width:24px;
+    height:24px;
+    display:inline;
+    position:absolute;
+    top:0;
+    margin-left:10px;
+    .bgImg("images/sprites.png", -484px, -261px);
+}
+
+.txt-link {
+    color:@black;
+    .lubalin.book;
+    .uppercase();
+    text-decoration:none;
+}
+
+.hr {
+    height:5px;
+    margin:30px 0 40px;
+    &.sec-div {
+        margin:0;
+    }
+}

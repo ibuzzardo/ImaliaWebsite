@@ -1,0 +1,149 @@
+section {
+    position:relative;
+    padding:75px 0;
+    &.bg, &.split, &.full-h {
+        padding:0;
+    }
+}
+
+.container {
+    position:relative;
+    margin:0 auto;
+    &.full-w {
+        width:auto;
+        padding-left:@hMarg;
+        padding-right:@hMarg;
+    }
+    &.banner {
+        height:100%;
+        padding-top:@hMarg;
+        &.sml {
+            height:427px;
+        }
+    }
+    &.half {
+        width:100%;
+        .inner {
+            width:100%;
+            position:relative;
+        }
+    }
+}
+
+.col-1, .col-2, .col-1-5, .col-3-5, .col-4-5 {
+    position:relative;
+    margin:0 @hMarg;
+}
+
+.table {
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.table-cell {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.scroll {
+    overflow:scroll;
+}
+
+.setStructure(@w) when (@w = @breakpoint1) {
+    .container {
+        width:710px;
+    }
+    
+    .col-1 {
+        width:660px;
+    }
+    
+    .col-1-5 {
+        width:107px;
+    }
+    
+    .col-3-5 {
+        width:442px;
+    }
+    
+    .col-4-5 {
+        width:503px;
+    }
+    
+    .alpha {
+        margin-left:0;
+    }
+    
+    .omega {
+        margin-right:0;
+    }
+    
+    .container.full-w {
+        padding-left:@fMarg;
+        padding-right:@fMarg;
+        .col-2 {
+            width:50%;
+            .inner {
+                margin:@margin;
+            }
+            &.alpha {
+                .inner {
+                    margin-left:0;
+                }
+            }
+            &.omega {
+                .inner {
+                    margin-right:0;
+                }
+            }
+        }
+    }
+    
+    .container.half {
+        float:left;
+        width:50%;
+        &.left .inner {
+            float:right;
+        }
+        &.right .inner {
+            float:left;
+        }
+    }
+    .container.banner {
+        padding-top:@fMarg;
+    }
+    .col-1, .col-2, .col-1-5, .col-4-5 {
+        float:left;
+    }
+    
+    .scroll {
+        overflow:visible;
+    }
+}
+
+.setStructure(@w) when (@w = @breakpoint2) {
+    .container {
+        width:820px;
+    }
+    
+    .col-1 {
+        width:770px;
+    }
+    
+    .col-1-5 {
+        width:129px;
+    }
+    
+    .col-4-5 {
+        width:591px;
+    }
+}
+
+.setStructure(@w) when (@w = @breakpoint3) {
+    .container {
+        &.wide {
+            width:1036px;
+        }
+    }
+}
