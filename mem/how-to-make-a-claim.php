@@ -25,8 +25,9 @@
 <div id="wrapper">
 	<header class="blue mast">
 		<div class="container clearfix">
-			<a href="index.php"><img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia"></a>
-		</div>
+			<img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia">
+            
+        	</div>
 	</header>
 	<!-- header -->
 	<section id="masthead" class="black">
@@ -59,7 +60,7 @@
 				<p>When you become aware of a circumstance that may give rise to a claim, or you receive notification of a claim, you must immediately advise Imalia, who will then advise the Underwriter.</p>
 				<h2>ALL IT TAKES IS A PHONE OR AN EMAIL TO LODGE YOUR CLAIM AND WE’LL TAKE IT FROM THERE</h2>
 				<button class="btn blue call">CaLl IMALIA 1300 302 952</button><br>
-				<a href="" class="btn yellow plane">Email Imalia</a>
+				<a href="mailto:enquires@imalia.com.au" class="btn yellow plane">Email Imalia</a>
 				
 			</div>
 			<!-- col-4-5 -->
@@ -73,9 +74,7 @@
 	</section>
 	<!-- section -->
 	
-	<?php
-		include "_contact_form.php";
-	?>
+
 	
 	<?php
 		include "_footer.php";

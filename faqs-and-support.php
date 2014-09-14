@@ -68,7 +68,7 @@
 				<div class="hr blue"></div>
 				
 				<h4>who can get cover?</h4>
-				<p>A Director or an Officer who is a subscriber of Women on Boards.</p>
+				<p>A Director or an Officer of a company.</p>
 				
 				<div class="hr blue"></div>
 				
@@ -86,86 +86,6 @@ An additional premium may apply.</li>
 				
 				<h4>What is an Exchange Traded Entity?</h4>
 				<p>An Exchange Traded Entity is any entity whose securities are publicly traded (wholly or in part) on a stock exchange in any jurisdiction.</p>
-			
-				<div class="hr blue"></div>
-				
-				<div class="scroll">
-					<table class="quad yellow" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<th>State</th>
-							<th>Premium including GST</th>
-							<th>Stamp Duty</th>
-							<th align="right">Total Premium</th>
-						</tr>
-						<tr>
-							<td>ACT</td>
-							<td>$208.61</td>
-							<td>$7.59</td>
-							<td align="right"><strong>$216.20</strong></td>
-						</tr>
-						<tr>			
-							<td>NSW</td>
-							<td>$208.61</td>
-							<td>$11.17</td>
-							<td align="right"><strong>$219.78</strong></td>
-						</tr>
-						<tr>
-							<td>NT</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>		
-							<td>Overseas</td>
-							<td>$197.11	</td>
-							<td>$0.00</td>
-							<td align="right"><strong>$197.11</strong></td>
-						</tr>
-						<tr>			
-							<td>QLD</td>
-							<td>$208.61</td>
-							<td>$11.39</td>
-							<td align="right"><strong>$220.00</strong></td>
-						</tr>
-						<tr>
-							<td>SA</td>
-							<td>$208.61</td>
-							<td>$13.92</td>
-							<td align="right"><strong>$222.53</strong></td>
-						</tr>
-						<tr>
-							<td>TAS</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>			
-							<td>VIC</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>
-							<td>WA</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-					</table>
-				</div>
-				<br>
-				<div class="hr blue"></div>
-				
-				<h4>How do I access free legal advice from Colin Biggers & Paisley (CBP)?</h4>
-				<p>Free legal advice is available for subscribers to Women on Boards who have purchased Passport D&O Insurance. Please contact Amanda Ryding from CBP on 02 8281 4428 or ajr@cbp.com.au.</p>
-				<p>The conditions of use for the free legal advice line are:</p>
-				<ul>
-					<li>Free advice for 15 minutes per enquiry from the same issue or related circumstances.</li>
-					<li>Discussions with CBP in relation to a claim or loss (as defined in Passport D&amp;O). An allegation or circumstances which may give rise to a claim or loss do not constitute an official notification of a claim to LAUW. At all times LAUW must be notified in writing of any claim, allegation or circumstances that may give rise to a claim in accordance with the LAUW Policy.</li>
-					<li>CBP cannot provide final legal advice via the hotline on policy indemnity. There is no finality in any advice on liability or indemnity as provided by CBP.</li>
-					<li>By utilising this service, you agree to waive legal professional privilege, but only to the extent to enable CBP to disclose to the insurer any information obtained via the hotline that may result in a claim being pursued or defended under the terms and conditions of the LAUW Policy.</li>
-					<li>The hours of operation are from 9am to 4pm AEST Monday to Friday except public holidays.</li>
-				</ul>
 				
 				<div class="hr blue"></div>
 				
@@ -185,7 +105,7 @@ An additional premium may apply.</li>
 				<h2>If you need more information about Passport D&O contact Imalia.</h2>
 				
 				<button class="btn blue call">CaLl IMALIA 1300 302 952</button><br>
-				<a href="" class="btn yellow plane">Email Imalia</a>
+				<a href="mailto:help@imalia.com.au" class="btn yellow plane">Email Imalia</a>
 				
 			</div>
 			<!-- col-4-5 -->

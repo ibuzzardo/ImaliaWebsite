@@ -39,7 +39,6 @@ $(function() {
 	if(body.find('input, textarea').length > 0) {
 		initPlaceholderFallback();
 	}
-	
 });
 
 function initDatePicker() {
@@ -83,6 +82,13 @@ function initSubNav() {
 function initMainNav() {
 	var menu = $("#main-nav-con"),
 		btn = menu.find("#menuBtn");
+		
+	if(wrapper.find("#home .home-click").length > 0) {
+		var homeTitle = wrapper.find("#home .home-click");
+		
+		homeTitle.css('cursor', 'pointer');
+		homeTitle.click(function() {btn.trigger('click');});
+	}
 		
 	btn.click(function() {
 		btn.toggleClass("open", !btn.hasClass("open"));
@@ -176,7 +182,6 @@ function setFullScreen() {
 		
 		var winH = win.height();
 		offH = offElems.height();
-		console.log(offH);
 		fScreen.css({
 			height: winH-offH+"px",
 		})

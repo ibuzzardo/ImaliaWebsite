@@ -626,6 +626,9 @@ header.mast {
   background-position: -471px -120px;
   background-repeat: no-repeat;
 }
+#success {
+  display: none;
+}
 .form.ctr {
   width: 566px;
   margin: 0 auto;

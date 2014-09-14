@@ -1,12 +1,12 @@
 <div id="main-nav-con" class="black">
 	<div class="inner">
-		<button id="menuBtn" class="black" type="button"></button>
+		
 		<div class="panel right blue">
 			<div class="container">
 				<h2>Subscribe to our news</h2>
-				<form id="news-form" class="clearfix stack" method="post" action="#">
+				<form id="news-form" class="clearfix stack" method="post" action="/php/process_subscribe.php">
 					<div class="form-row clearfix">
-						<input id="news_fullName" name="First Name" placeholder="Full Name" type="text" required>
+						<input id="news_fullName" name="FullName" placeholder="Full Name" type="text" required>
 					</div>
 					<!-- form-row -->
 					<div class="form-row clearfix">
@@ -18,6 +18,9 @@
 					</div>
 				</form>
 				<!-- news form -->
+                <div id="success" class="top-gap">
+                  <p>Thank you for subscribing to our newsletter.</p>
+                </div>
 			</div>
 			<!-- container -->
 		</div>
@@ -42,9 +45,9 @@
 							<li class="parent social-links">
 								Connect with us
 								<ul>
-									<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-									<li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+									<li><a href="https://twitter.com/myimalia" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.facebook.com/pages/Imalia/251329788372378" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/imalia?trk=company_logo&_mSplash=1" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
 								</ul>
 							</li>
 						</ul>

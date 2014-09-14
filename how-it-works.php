@@ -56,13 +56,20 @@
 				<h1>Passport d&amp;o</h1>
 				<h2>How it works</h2>
 				<p>Passport D&amp;O is a policy for individuals designed to protect your professional and financial wellbeing in your capacity as a company Director or an Officer.</p>
-				<p>Directors &amp; Officers face the real threat of incurring significant personal financial liability as a result of their actions in the work arena. London Underwriting Australia Pty Ltd (LUAW) with Imalia has developed Passport D&amp;O to sit as a secondary policy to the corporate directors’ and officers’ policies purchased by corporations.</p>
-				<p>Passport D&amp;Ois activated when the insurer of a Company (where you hold a Board Position) refuses to pay or is unable to pay under the Company’s Directors‘ &amp; Officers‘ or Management Liability Policy, or the Company refuses or is financially unable to indemnify you.</p>
+				<p>Directors &amp; Officers face the real threat of incurring significant personal financial liability as a result of their actions in the work arena. London Australia Underwriting Pty Ltd (LAUW) with Imalia has developed Passport D&amp;O to sit as a secondary policy to the corporate directors’ and officers’ policies purchased by corporations.</p>
+                <p>We offer two options for the limit of indemnity under this policy:</p>
+                <ul>
+                	<li>$250,000</li>
+                    <li>$500,000</li>
+                </ul>
+                <p>You can increase your level of indemnity at anytime throughout the year.</p>
+				<p>Passport D&amp;O is activated when the insurer of a Company (where you hold a Board Position) refuses to pay or is unable to pay under the Company’s Directors‘ &amp; Officers‘ or Management Liability Policy, or the Company refuses or is financially unable to indemnify you.</p>
 				<p>Passport provides you with peace of mind knowing you have consistent cover for all your Board Positions, and additional cover following your retirement from any Board Position. </p>
 				<ul>
 					<li><a href="/downloads/Passport_D&O_Policy.pdf" target="_blank">Download the Passport D&O Policy</a></li>
 					<li><a href="/downloads/Passport_D&O_Declaration.pdf" target="_blank">Download the Passport D&O Declaration</a></li>
 					<li><a href="/downloads/Passport_D&O_Policy_Benefits.pdf" target="_blank">Download the Passport D&O Policy Benefits</a></li>
+                    <li><a href="#" target="_blank">Download the Imalia Financial Services Guide</a></li>
 				</ul>
 				<a href="apply.php" class="btn blue apply">Apply now</a>
 				<a href="#share" class="btn yellow share open-popup-link">Share</a>
@@ -74,7 +81,7 @@
 				
 				<table class="yellow" border="0" cellspacing="0" cellpadding="0">
 					<tr>
-						<td>$250,000 Aggregate Limit of Indemnity inclusive of Defence Costs.</td>
+						<td>$250,000 or $500,000 Aggregate Limit of Indemnity inclusive of defence costs.</td>
 					</tr>
 					<tr>
 						<td>NIL Excess applies.</td>
@@ -116,21 +123,6 @@
 				
 				<br><br>
 				
-				<h2>Additional Benefits</h2>
-				<p>LAUW with Imalia has arranged 15 minutes free and confidential legal advice from Amanda Ryding of Colin Biggers Paisley (CBP) for subscribers to Women on Boards who have purchased Passport D&amp;O. Amanda and her team will provide advice in relation to:</p>
-				
-				<table class="yellow" border="0" cellspacing="0" cellpadding="0">
-					<tr>
-						<td>Insurance issues relevant to their role as a director</td>
-					</tr>
-					<tr>
-						<td>Directors’ duties and exposure relating to general corporate law, environmental regulation, employment practices law and occupational health and safety law.</td>
-					</tr>
-				</table>
-				
-				<br>
-				
-				<p>Contact Amanda Ryding and CBP on 02 8281 4428 or email <a href="mailto:air@cbp.com.au">air@cbp.com.au</a></p>
 				
 				<a href="./apply.php" class="btn blue apply">Apply now</a>
 				<a href="#share" class="btn yellow share open-popup-link">Share</a>

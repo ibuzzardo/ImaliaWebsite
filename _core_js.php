@@ -5,6 +5,7 @@
 <script src="js/vendor/respond.min.js"></script>
 <script src="js/vendor/jquery.magnific-popup.min.js"></script>
 <script src="js/vendor/jquery.validate.min.js"></script>
+<script src="js/vendor/jquery.form.min.js"></script>
 <script src="js/vendor/jquery-bgstretcher-3.1.2.min.js"></script>
 <script src="js/vendor/jquery.sharrre.min.js"></script>
 <script src="js/main.js"></script>

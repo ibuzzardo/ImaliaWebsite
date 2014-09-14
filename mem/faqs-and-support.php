@@ -25,8 +25,8 @@
 <div id="wrapper">
 	<header class="blue mast">
 		<div class="container clearfix">
-			<a href="index.php"><img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia"></a>
-		</div>
+			<img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia">
+            	</div>
 	</header>
 	<!-- header -->
 	<section id="masthead" class="black">
@@ -89,72 +89,6 @@ An additional premium may apply.</li>
 			
 				<div class="hr blue"></div>
 				
-				<div class="scroll">
-					<table class="quad yellow" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<th>State</th>
-							<th>Premium including GST</th>
-							<th>Stamp Duty</th>
-							<th align="right">Total Premium</th>
-						</tr>
-						<tr>
-							<td>ACT</td>
-							<td>$208.61</td>
-							<td>$7.59</td>
-							<td align="right"><strong>$216.20</strong></td>
-						</tr>
-						<tr>			
-							<td>NSW</td>
-							<td>$208.61</td>
-							<td>$11.17</td>
-							<td align="right"><strong>$219.78</strong></td>
-						</tr>
-						<tr>
-							<td>NT</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>		
-							<td>Overseas</td>
-							<td>$197.11	</td>
-							<td>$0.00</td>
-							<td align="right"><strong>$197.11</strong></td>
-						</tr>
-						<tr>			
-							<td>QLD</td>
-							<td>$208.61</td>
-							<td>$11.39</td>
-							<td align="right"><strong>$220.00</strong></td>
-						</tr>
-						<tr>
-							<td>SA</td>
-							<td>$208.61</td>
-							<td>$13.92</td>
-							<td align="right"><strong>$222.53</strong></td>
-						</tr>
-						<tr>
-							<td>TAS</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>			
-							<td>VIC</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-						<tr>
-							<td>WA</td>
-							<td>$208.61</td>
-							<td>$12.65</td>
-							<td align="right"><strong>$221.26</strong></td>
-						</tr>
-					</table>
-				</div>
-				<br>
-				<div class="hr blue"></div>
 				
 				<h4>How do I access free legal advice from Colin Biggers & Paisley (CBP)?</h4>
 				<p>Free legal advice is available for subscribers to Women on Boards who have purchased Passport D&O Insurance. Please contact Amanda Ryding from CBP on 02 8281 4428 or ajr@cbp.com.au.</p>
@@ -185,7 +119,7 @@ An additional premium may apply.</li>
 				<h2>If you need more information about Passport D&O contact Imalia.</h2>
 				
 				<button class="btn blue call">CaLl IMALIA 1300 302 952</button><br>
-				<a href="" class="btn yellow plane">Email Imalia</a>
+				<a href="mailto:enquires@imalia.com.au" class="btn yellow plane">Email Imalia</a>
 				
 			</div>
 			<!-- col-4-5 -->
@@ -199,9 +133,6 @@ An additional premium may apply.</li>
 	</section>
 	<!-- section -->
 	
-	<?php
-		include "_contact_form.php";
-	?>
 	
 	<?php
 		include "_footer.php";

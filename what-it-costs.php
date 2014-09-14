@@ -2,8 +2,9 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,112 +24,171 @@
 <![endif]-->
 
 <div id="wrapper">
-	<header class="blue mast">
-		<div class="container clearfix">
-			<a href="index.php"><img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia"></a>
-		</div>
-	</header>
-	<!-- header -->
-	<section id="masthead" class="black">
-		<div class="container clearfix">
-			<div class="col-1">
-				<button id="subBtn"></button>
-				<nav id="sub-nav">
-					<ul>
-						<li><a href="how-it-works.php">How it works</a></li>
-						<li><a href="what-it-covers.php">What it covers</a></li>
-						<li class="active"><a href="what-it-costs.php">What it costs</a></li>
-						<li><a href="apply.php">Apply</a></li>
-						<li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
-						<li><a href="faqs-and-support.php">FAQs and support</a></li>
-					</ul>
-				</nav>
-			</div>
-			<!-- col-1 -->
-		</div>
-		<!-- container -->
-	</section>
-	<!-- masthead -->
-	
-	<section class="content">
-		<div class="container clearfix">
-			<div class="col-4-5">
-				<h1>Passport d&amp;o</h1>
-				<h2>What it costs</h2>
-				<p>Women on Boards through Imalia have arranged Passport D&O coverage at this special price for subscribers to Women on Boards.</p>
-				
-				<table class="yellow" border="0" cellspacing="0" cellpadding="0">
-					<tr>
-						<th width="29%" colspan="1">Price including GST</th>
-						<th colspan="2">Total Premium including GST, Stamp Duty & Fees</th>
-					</tr>
-					<tr>
-						<td>$208.61</td>
-						<td width="17%">ACT</td>
-						<td width="54%">$223.79</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">NSW</td>
-						<td width="54%">$230.95</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">NT</td>
-						<td width="54%">$233.91</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">QLD</td>
-						<td width="54%">$231.39</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">SA</td>
-						<td width="54%">$236.45</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">TAS</td>
-						<td width="54%">$233.91</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">VIC</td>
-						<td width="54%">$233.91</td>
-					</tr>
-					<tr>
-						<td>&nbsp;</td>
-						<td width="17%">WA</td>
-						<td width="54%">$233.91</td>
-					</tr>
-			
-				</table>
-				
-				<br><br>
-				
-				<a href="./apply.php" class="btn blue apply">Apply now</a>
-				<a href="#share" class="btn yellow share open-popup-link">Share</a>
-			</div>
-			<!-- col-4-5 -->
-			<div class="col-1-5 support">
-				<figure>
-					<img src="img/support-img-1.jpg" width="656" height="329" alt="My professional life">
-				</figure>
-			</div>
-		</div>
-		<!-- container -->
-	</section>
-	<!-- section -->
-	
-	<div id="share" class="mfp-hide white-popup popup txt-ctr">
-	</div>
-	
-	<?php
+  <header class="blue mast">
+    <div class="container clearfix"> <a href="index.php"><img id="main-logo" src="img/logo-imalia.png" width="118" height="15" alt="Imalia"></a> </div>
+  </header>
+  <!-- header -->
+  <section id="masthead" class="black">
+    <div class="container clearfix">
+      <div class="col-1">
+        <button id="subBtn"></button>
+        <nav id="sub-nav">
+          <ul>
+            <li><a href="how-it-works.php">How it works</a></li>
+            <li><a href="what-it-covers.php">What it covers</a></li>
+            <li class="active"><a href="what-it-costs.php">What it costs</a></li>
+            <li><a href="apply.php">Apply</a></li>
+            <li><a href="how-to-make-a-claim.php">How to make a claim</a></li>
+            <li><a href="faqs-and-support.php">FAQs and support</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- col-1 --> 
+    </div>
+    <!-- container --> 
+  </section>
+  <!-- masthead -->
+  
+  <section class="content">
+    <div class="container clearfix">
+      <div class="col-4-5">
+        <h1>Passport d&amp;o</h1>
+        <h2>What it costs</h2>
+        <p>Imalia offers two options for the limit of indemnity under this policy.</p>
+        <h2>Limit of indemnity - $250,000 </h2>
+<table  class="yellow" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><strong>State</strong></th>
+            <th scope="col"><strong>Premium incl GST</strong></th>
+            <th scope="col"><strong>Stamp Duty</strong></th>
+            <th scope="col"><strong>Premium incl GST and charges</strong></th>
+          </tr>
+          <tr>
+            <td>ACT</td>
+            <td>$262.10</td>
+            <td>$7.08</td>
+            <td>$269.18</td>
+          </tr>
+          <tr>
+            <td>NSW</td>
+            <td>$262.10</td>
+            <td>$8.86</td>
+            <td>$270.96</td>
+          </tr>
+          <tr>
+            <td>NT</td>
+            <td>$262.10</td>
+            <td>$17.71</td>
+            <td>$279.81</td>
+          </tr>
+          <tr>
+            <td>QLD</td>
+            <td>$262.10</td>
+            <td>$15.94</td>
+            <td>$278.04</td>
+          </tr>
+          <tr>
+            <td>SA</td>
+            <td>$262.10</td>
+            <td>$19.48</td>
+            <td>$281.58</td>
+          </tr>
+          <tr>
+            <td>TAS</td>
+            <td>$262.10</td>
+            <td>$17.71</td>
+            <td>$279.81</td>
+          </tr>
+          <tr>
+            <td>VIC</td>
+            <td>$262.10</td>
+            <td>$17.71</td>
+            <td>$279.81</td>
+          </tr>
+          <tr>
+            <td>WA</td>
+            <td>$262.10</td>
+            <td>$17.71</td>
+            <td>$279.81</td>
+          </tr>
+        </table>
+        <p>Includes GST component of $23.83</p>
+        <br>
+        <h2>Limit of indemnity - $500,000 </h2>
+<table  class="yellow" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <th scope="col"><strong>State</strong></th>
+            <th scope="col"><strong>Premium incl GST</strong></th>
+            <th scope="col"><strong>Stamp Duty</strong></th>
+            <th scope="col"><strong>Premium incl GST and charges</strong></th>
+          </tr>
+          <tr>
+            <td>ACT</td>
+            <td>$385.30</td>
+            <td>$12.01</td>
+            <td>$397.31</td>
+          </tr>
+          <tr>
+            <td>NSW</td>
+            <td>$385.30</td>
+            <td>$15.02</td>
+            <td>$400.32</td>
+          </tr>
+          <tr>
+            <td>NT</td>
+            <td>$385.30</td>
+            <td>$30.03</td>
+            <td>$415.33</td>
+          </tr>
+          <tr>
+            <td>QLD</td>
+            <td>$385.30</td>
+            <td>$27.03</td>
+            <td>$412.33</td>
+          </tr>
+          <tr>
+            <td>SA</td>
+            <td>$385.30</td>
+            <td>$33.03</td>
+            <td>$418.33</td>
+          </tr>
+          <tr>
+            <td>TAS</td>
+            <td>$385.30</td>
+            <td>$30.03</td>
+            <td>$415.33</td>
+          </tr>
+          <tr>
+            <td>VIC</td>
+            <td>$385.30</td>
+            <td>$30.03</td>
+            <td>$415.33</td>
+          </tr>
+          <tr>
+            <td>WA</td>
+            <td>$385.30</td>
+            <td>$30.03</td>
+            <td>$415.33</td>
+          </tr>
+        </table>
+        <p>Includes GST component of $35.03</p>
+        <br>
+        <br>
+        <a href="./apply.php" class="btn blue apply">Apply now</a> <a href="#share" class="btn yellow share open-popup-link">Share</a> </div>
+      <!-- col-4-5 -->
+      <div class="col-1-5 support">
+        <figure> <img src="img/support-img-1.jpg" width="656" height="329" alt="My professional life"> </figure>
+      </div>
+    </div>
+    <!-- container --> 
+  </section>
+  <!-- section -->
+  
+  <div id="share" class="mfp-hide white-popup popup txt-ctr"> </div>
+  <?php
 		include "_contact_form.php";
 	?>
-	
-	<?php
+  <?php
 		include "_footer.php";
 	?>
 </div>
@@ -137,14 +197,11 @@
 <?php
 	include "_main_menu.php";
 ?>
-
 <script>
 	bnr = ["img/bg-1.jpg", 1600, 636, "center top"]
 </script>
-
 <?php
 	include "_core_js.php";
 ?>
-
 </body>
 </html>

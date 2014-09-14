@@ -37,6 +37,7 @@
 					<ul>
 						<li><a href="./how-it-works.php">How it works</a></li>
 						<li><a href="./what-it-covers.php">What it covers</a></li>
+						<li><a href="./what-it-costs.php">What it costs</a></li>
 						<li class="active"><a href="./apply.php">Apply</a></li>
 						<li><a href="./how-to-make-a-claim.php">How to make a claim</a></li>
 						<li><a href="./faqs-and-support.php">FAQs and support</a></li>

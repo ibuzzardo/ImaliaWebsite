@@ -126,6 +126,19 @@
 							No
 						</label>
 					</div>
+                    <div class="form-row clearfix radioBtn">
+						<p>
+							Please indicate the level of indemnity coverage you require
+						</p>
+						<label for="q1b_opt1">
+							<input class="styled" type="radio" name="q1b" id="q1b_opt1" value="$500,000" required>
+							$500,000
+						</label>
+						<label for="q1b_opt2">
+							<input class="styled" type="radio" name="q1b" id="q1b_opt2" value="$250,000">
+							$250,000
+						</label>
+					</div>
 					<div class="form-row clearfix">
 						<p>You can add Exchange Traded Entities here. <button type="button" class="add black open-popup-link" data-mfp-src="#entities_add"></button></p>
 					</div>
@@ -197,7 +210,7 @@
 						<br>
 						<label for="terms" class="fine">
 							<input class="styled" type="checkbox" name="terms" id="terms" value="agree" required>
-							I declare that the above answers, statements, particulars and additional information are true to the very best of my knowledge and belief. After full enquiry, I also confirm that I have disclosed all information and material facts that may alter the Underwriters’ view of the risk, or affect their assessment of the exposures they are covering under the Policy. I understand that all answers, statements, particulars and additional information supplied with this declaration will become part of and form the basis of the Policy.
+							I declare that the above answers, statements, particulars and additional information are true to the very best of my knowledge and belief. After full enquiry, I also confirm that I have disclosed all information and material facts that may alter the Underwriters’ view of the risk, or affect their assessment of the exposures they are covering under the Policy. I understand that all answers, statements, particulars and additional information supplied with this declaration will become part of and form the basis of the Policy. I also declare that I have read the Imalia Financial Services Guide.
 						</label>
 					</div>
 				</form>

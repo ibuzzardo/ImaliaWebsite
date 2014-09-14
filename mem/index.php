@@ -33,8 +33,8 @@
 		<div class="container clearfix full-w banner fullscreen txt-ctr">
 			<div class="headline table">
 				<div class="inner table-cell">
-					<h1>Take A <strong>Deep Breath</strong></h1>
-					<h2>We've got everything covered.</h2>
+					<div class="home-click"><h1>Take A <strong>Deep Breath</strong></h1>
+					<h2>We've got everything covered.</h2></div>
 				</div>
 			</div>
 		</div>

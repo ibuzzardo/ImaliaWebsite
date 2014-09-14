@@ -60,7 +60,7 @@
 				
 				<table class="blue" border="0" cellspacing="0" cellpadding="0">
 					<tr>
-						<th>Examples of Passport coverage</th>
+						<th>Examples of Passport D&amp;O coverage</th>
 					</tr>
 					<tr>
 						<td>Creditors and customers taking action against Directors for insolvent trading.</td>
@@ -100,6 +100,7 @@
 					<li><a href="/downloads/Passport_D&O_Policy.pdf" target="_blank">Download the Passport D&O Policy</a></li>
 					<li><a href="/downloads/Passport_D&O_Declaration.pdf" target="_blank">Download the Passport D&O Declaration</a></li>
 					<li><a href="/downloads/Passport_D&O_Policy_Benefits.pdf" target="_blank">Download the Passport D&O Policy Benefits</a></li>
+                    <li><a href="#" target="_blank">Download the Imalia Financial Services Guide</a></li>
 				</ul>
 				<br>
 				<a href="apply.php" class="btn blue apply">Apply now</a>
